@@ -120,7 +120,7 @@ public class Notepad extends JFrame {
 		mntmAbout = new JMenuItem("About");
 		mntmAbout.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent actionEvent) {
-				JOptionPane.showMessageDialog(mntmAbout, "Created by Emil, Vasil", "Notepad",
+				JOptionPane.showMessageDialog(mntmAbout, "Created by Emil, Vasil", "Tetradka",
 						getDefaultCloseOperation());
 			}
 		});
