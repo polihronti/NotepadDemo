@@ -66,7 +66,7 @@ public class Notepad extends JFrame {
 	private JCheckBox checkBox;
 
 	public Notepad() {
-		setTitle("Untitled");
+		setTitle("Tetradka");
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		setSize(new Dimension(600, 400));
 		initWidgets();
